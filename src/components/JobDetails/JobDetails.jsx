@@ -12,7 +12,6 @@ const JobDetails = () => {
   const handleApplyNow = () => {
     toast("Successfully applied to the job!");
     saveToLocalStorage(parseInt(jobId));
-    
   };
 
   return (
